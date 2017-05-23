@@ -1,0 +1,94 @@
+<app-navbar></app-navbar>
+
+<br />
+<br />
+
+<div class="container">
+
+	<div class="card card-warning">
+
+		<div class="card-header text-primary"><h3><b>Angular 4.x Material BootStrap</b></h3></div>
+
+		<div class="card-block bg-info">
+
+			<div class="jumbotron youtube text-center text-white">
+				<div class="container">
+					<h2 class="text-warning"><b>{{title}}</b></h2>
+					<p class="lead">{{desc}}</p>
+
+
+
+					<button type="button" class="btn btn-primary" data-toggle="modal"
+						data-target="#modal-contact">Contact Us</button>
+
+					<!-- Modal Contact -->
+					<div class="modal animated zoomIn modal-ext" id="modal-contact"
+						tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+						aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<!--Content-->
+							<div class="modal-content">
+								<!--Header-->
+								<div class="modal-header bg-warning">
+									<button type="button" class="close" data-dismiss="modal"
+										aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+									<h1 class="modal-title w-100 text-success" id="myModalLabel">Write to
+										Us</h1>
+								</div>
+								<!--Body-->
+								<div class="modal-body text-primary">
+									<h3 class="text-info">We like to receive messages.</h3>
+									<br>
+									<div class="md-form">
+										<input type="text" id="form22" class="form-control"> <label
+											class="text-danger" for="form42">Your name</label>
+									</div>
+
+									<div class="md-form">
+										<input type="text" id="form32" class="form-control"> <label
+											class="text-danger" for="form34">Your email</label>
+									</div>
+
+									<div class="md-form">
+										<input type="text" id="form32" class="form-control"> <label
+											class="text-danger" for="form34">Subject</label>
+									</div>
+
+									<div class="md-form">
+										<textarea type="text" id="form8" class="md-textarea"></textarea>
+										<label class="text-danger" for="form8">Messages</label>
+									</div>
+
+									<div class="text-center">
+										<button class="btn btn-primary">Submit</button>
+
+										<div class="call">
+											<p class="text-info">
+												Or would you prefer to call? <span class="cf-phone"><i
+													class="fa fa-phone"> +01 234 565 280</i></span>
+											</p>
+										</div>
+									</div>
+								</div>
+								<!--Footer-->
+								<div class="modal-footer bg-warning">
+									<button type="button" class="btn btn-danger"
+										data-dismiss="modal">Close</button>
+								</div>
+							</div>
+							<!--/.Content-->
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
